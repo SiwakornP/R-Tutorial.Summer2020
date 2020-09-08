@@ -1,0 +1,24 @@
+---
+title: "Lesson 2 Basic R command and Data frame"
+author: "Siwakorn"
+date: "9/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(datasets)
+
+iris[grep("setosa", iris$Species),]
+Dir = "C:/Users/siwakorn/OneDrive/Documents_Onedrive/R-tutorial/200908_R_Training_02/"
+```
+
+```{r}
+weather <- read.csv(paste0(Dir,"Weather.csv"))
+weather$
+```
+
